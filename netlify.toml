@@ -1,2 +1,5 @@
 [build]
   functions = "./api"
+  command = "yarn run build"
+[build.environment]
+  YARN_VERSION = "1.7.0"
